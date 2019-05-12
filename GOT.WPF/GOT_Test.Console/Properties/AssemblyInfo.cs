@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("GOT.Service.Abstract")]
+[assembly: AssemblyTitle("GOT_Test.Console")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GOT.Service.Abstract")]
+[assembly: AssemblyProduct("GOT_Test.Console")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("46180da5-e9ba-4de4-bf4c-ea4052e91bfc")]
+[assembly: Guid("a0e5ecb7-d894-4b7b-b585-67642a940a6a")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

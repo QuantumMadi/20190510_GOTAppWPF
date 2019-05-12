@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GOT.WPF"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"       
         WindowStartupLocation="CenterScreen"
+        xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
         Title="MainWindow" Height="733" Width="800" mc:Ignorable="d" WindowStyle="SingleBorderWindow"  ResizeMode="NoResize">
     <Window.Resources>
         <DropShadowEffect  ShadowDepth="5" Direction="310" Color="Maroon"  Opacity="0.35" BlurRadius="5" x:Key="Shadow"/>
@@ -127,6 +128,8 @@
                     <col:ArrayList x:Key="characters"></col:ArrayList>
                 </ListBox.Resources>
             </ListBox>
+            <cefSharp:ChromiumWebBrowser Grid.Column="1" Grid.RowSpan="2" 
+                                         Address="http://viewers-guide.hbo.com/game-of-thrones/season-8/episode-4/map/location/18/dragonstone"/>
         </Grid>
     </StackPanel>
 </Window>

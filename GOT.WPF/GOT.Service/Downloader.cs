@@ -1,11 +1,10 @@
-﻿using GOT.Service.Abstract;
-using System.Net;
+﻿using System.Net;
 
 namespace GOT.Service
 {
-    public class Downloader : IDownloader
+    public static class Downloader 
     {
-        public string DataJsonFormat(string url)
+        public static string DataJsonFormat(string url)
         {
             using (var client = new WebClient())
             {
